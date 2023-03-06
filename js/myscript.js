@@ -7,7 +7,7 @@ var myName;
 var myName = 'Aldrien';
 
 
-let a;
+let a; // variable declaration  
 let = 10;
 
 
