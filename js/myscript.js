@@ -6,5 +6,10 @@ var ourName;
 var myName;
 var myName = 'Aldrien';
 
-console.log(typeof(myName));
+
+let a;
+let = 10;
+
+
+console.log(myName);
 
