@@ -3,5 +3,8 @@ var b = 10.0; // variable initialization
 
 var ourName;
 
-console.log(typeof(b));
+var myName;
+var myName = 'Aldrien';
+
+console.log(typeof(myName));
 
