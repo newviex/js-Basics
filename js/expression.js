@@ -12,8 +12,8 @@ let b = 3;
 let c = 2; 
 let a = b + c ;
 
-// 1.
-// 2.
-// 3.
+// 1. let a; -variable declaration
+// 2. a = b + c; -variable initialization
+// 3. b + c  - performing the evualation
 
 console.log(a);
