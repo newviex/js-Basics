@@ -39,3 +39,7 @@ console.log(b);
 // 1. Learn that they exist.
 // 2. What their function is
 // 3. Use them as we write our program
+
+//EQUALITY OPERATOR == 
+// STRICT EQUALITY OPERATOR ===
+// TERNARY OPERATOR ?
