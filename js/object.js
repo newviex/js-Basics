@@ -82,4 +82,10 @@ let contact = {
     ]
 }
 
-console.log(contact.customer[0]);
+console.log(contact.customer[0]);                    
+
+//*************************************************/
+
+// JSON - JAVASCRIPT OBJECT NOTATION
+
+// JSON is different from OBJECT LITERALS
