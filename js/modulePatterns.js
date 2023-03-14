@@ -1,6 +1,6 @@
 var counter = (function(){
      // private stuff
-     let count = 1;
+     let count = 0;
 
      function print(message){
         console.log(message + '---' + count);
@@ -8,9 +8,9 @@ var counter = (function(){
 
      // return an object with full of properties
      return{
-        value: count,
+      //   value: count,
         increment: function(){
-            count += 1;
+            count = count += 1;
             print('After Increment');
         },
         reset: function(){
@@ -23,8 +23,12 @@ var counter = (function(){
 })(); //IIEF Immediately Invoke Function Expression
 
 console.log(counter.count);
-console.log(counter.value);
+// console.log(counter.value);
 console.log(counter.increment());
+console.log(counter.increment());
+console.log(counter.increment());
+console.log(counter.increment());
+// console.log(counter.value); // we accidentally created a closure lets not do this
 // GLOBAL NAMESPACE why we dont want to define a variable in the Global namespace.
 
 // 1. It is not remove from the computer memory until we navigate to a new tab. 2 . Web Browser.
